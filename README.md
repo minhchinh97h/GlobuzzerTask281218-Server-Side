@@ -14,7 +14,29 @@ This repository is created to hold the source code of the task requested by Glob
   - Youtube embedded video links.
   - Google embedded map link.
   - Axios, Expressjs 4 and Mongodb for handling backend.
-  
+
+# This is the data from the Mlab's collection, which is used to represent the funtionality of the backend code:
+![image](https://user-images.githubusercontent.com/25637330/50737432-d9b70c80-11d1-11e9-92f0-3a91363d5d52.png)
+![image](https://user-images.githubusercontent.com/25637330/50737447-f3585400-11d1-11e9-954a-5fae5d070c13.png)
+
+ - The collection's scheme: 
+{
+    "_id": "id",
+    "name": "country name",
+    "ISO-code-short": "country ISO-code-short",
+    "ISO-code-long": "country ISO-code-long",
+    "destination_banner": "country banner",
+    "destination_description": "country description",
+    "video_iframe": "https link (Youtube) of the country",
+    "news": {
+        "news1": "country news 1",
+        "news2": "country news 2",
+        "news3": "country news3"
+    }
+}
+   
+
+ 
  
 # Current archievements:
   - responsive up from 600px-width.
